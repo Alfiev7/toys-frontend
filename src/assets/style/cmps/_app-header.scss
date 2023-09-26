@@ -1,0 +1,33 @@
+.app-header {
+    min-height: 5vh;
+    background-color: $clr6;
+    border-bottom: 1px solid $clr4;
+    display: flex;
+    justify-content: space-between;
+
+    .main-nav {
+        display: flex;
+        
+    }
+
+    .main-nav a {
+        color: $clr4;
+        text-decoration: none;
+        list-style: none;
+    }
+     
+    .main-nav li {
+        list-style: none;
+        margin-right: 40px;
+    }
+
+    .header-icons {
+        display: flex;
+    }
+
+    .header-icons li {
+        color: $clr4;
+        list-style: none;
+        margin-right: 40px;
+    }
+}

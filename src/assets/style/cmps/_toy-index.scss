@@ -1,0 +1,15 @@
+.toy-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "empty title title empty"
+    "empty filter filter empty"
+    "toy toy toy toy ";
+
+section.toy-filter {
+grid-area: filter / filter;
+}
+
+}
+
